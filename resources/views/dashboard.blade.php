@@ -24,7 +24,7 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 <div class="card w-100">
                     <div class="card-body" style="height: 650px; overflow-y: auto;">
                         <h5 class="card-title fw-semibold mb-4">Jadwal Mengajar</h5>
@@ -59,7 +59,7 @@
                 </div>
             </div>
 
-            <div class="col-md-8 d-flex align-items-stretch">
+            <div class="col-md-6 d-flex align-items-stretch">
             <div class="card w-100 position-relative overflow-hidden mb-7 mb-lg-0">
                 <div class="card-body">
                     <div class="d-flex justify-content-between">
