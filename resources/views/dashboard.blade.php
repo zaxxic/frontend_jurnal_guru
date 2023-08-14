@@ -24,7 +24,7 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-5">
+            <div class="col-lg-4">
                 <div class="card w-100">
                     <div class="card-body" style="height: 650px; overflow-y: auto;">
                         <h5 class="card-title fw-semibold mb-4">Jadwal Mengajar</h5>
@@ -59,43 +59,22 @@
                 </div>
             </div>
 
-            <div class="col-md-7 d-flex align-items-stretch">
-                <div class="card w-100 position-relative overflow-hidden mb-7 mb-lg-0">
-                    <div class="card-body">
-                        <h5 class="card-title fw-semibold mb-4">Daftar kehadiran siswa</h5>
-                        <div id="current-year"></div>
-                        <div class="text-center">
-                            <button class="btn mb-1 mt-4 waves-effect waves-light btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#samedata-modal">
-                                Lihat Detail
-                            </button>
-                        </div>
+            <div class="col-md-8 d-flex align-items-stretch">
+            <div class="card w-100 position-relative overflow-hidden mb-7 mb-lg-0">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <h5 class="card-title fw-semibold mb-4">Data Kehadiran Siswa</h5>
+
+                        <button class="btn mb-5 waves-effect waves-light btn btn-primary " data-bs-toggle="modal" data-bs-target="#samedata-modal">
+                            Lihat Detail
+                        </button>
                     </div>
-                    <div class="p-3">
-                        <div class="hstack gap-3 justify-content-center">
-                            <div>
-                                <span>
-                                    <span class="round-8 bg-danger rounded-circle d-inline-block me-2"></span>
-                                </span>
-                                <span class="fs-3 text-dark">Alpha</span>
-                            </div>
-                            <div>
-                                <span>
-                                    <span class="round-8 bg-primary rounded-circle d-inline-block me-2"></span>
-                                </span>
-                                <span class="fs-3 text-dark">Izin</span>
-                            </div>
-                            <div>
-                                <span>
-                                    <span class="round-8 bg-warning rounded-circle d-inline-block me-2"></span>
-                                </span>
-                                <span class="fs-3 text-dark">Sakit</span>
-                            </div>
-                        </div>
-                    </div>
+                    <div id="chart-pie-simple"></div>
+
                 </div>
 
             </div>
+        </div>
         </div>
     </div>
 
